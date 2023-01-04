@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
-import buildspaceLogo from '../assets/buildspace-logo.png';
+import nnLogo from '../assets/nn.png';
 import { useState } from 'react';
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>GPT-3 Angry Text Translator</title>
       </Head>
       <div className="container">
         <div className="header">
@@ -76,13 +76,13 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="http://nicoleng.xyz"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <Image src={nnLogo} alt="NN logo" />
+            <p>built by Nicole Ng</p>
           </div>
         </a>
       </div>
